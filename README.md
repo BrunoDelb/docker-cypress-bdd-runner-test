@@ -18,7 +18,7 @@ Simply create a Docker container of the image ```cypress-bdd-runner``` :
 	-e REPORT_FILE=result.xml \
 	-e CYPRESS_videosFolder=/report \
 	-e CYPRESS_screenshotsFolder=/report \
-	cypress-bdd-runner run_cypress
+	devopstestlab/cypress-bdd-runner run_cypress
 ```
 
 Then the output is in the directory report :
