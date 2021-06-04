@@ -1,7 +1,7 @@
-Feature: The Twitter
+Feature: Twitter
 
-  I want to tweet things
+  I want to open Twitter
 
   Scenario: Opening Twitter
-    Given I open Twitter page
+    Given I open a Twitter page
     Then I see "Twitter" in the title

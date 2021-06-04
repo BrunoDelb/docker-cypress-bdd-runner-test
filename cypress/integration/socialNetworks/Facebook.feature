@@ -1,11 +1,8 @@
-Feature: The Facebook
+Feature: Facebook
 
-  I want to open a social network page
+  I want to open Facebook
 
-  Scenario: Opening a social network page
-    Given I open Facebook page
+  Scenario: Opening Facebook
+    Given I open a Facebook page
     Then I see "Facebook" in the title
 
-  Scenario: Different kind of opening
-    Given I kinda open Facebook page
-    Then I am very happy
