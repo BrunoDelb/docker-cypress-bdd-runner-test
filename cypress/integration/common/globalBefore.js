@@ -1,5 +1,0 @@
-before(() => {
-  cy.log(
-    "Started"
-  );
-});
